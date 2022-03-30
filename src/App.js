@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Form from './Components/Form';
+import form from './Components/form';
 
 function App() {
   
@@ -10,7 +10,7 @@ const [values, setValues] = useState({ name: '', email: '', role: ''});
 
 
 const onSubmit = () => {
-  setNumbers([values, ...members``])
+  setMembers([values, ...members``])
 }
 
 const onChange = (name, value) =>{

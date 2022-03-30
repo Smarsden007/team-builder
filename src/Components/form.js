@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Form = (props) => {
+const form = (props) => {
 const handleChange = event => {
     const { name, value } = event.target;
     props.change(name, value);
@@ -37,7 +37,9 @@ const handleSubmit = event => {
             onChange={handleChange}
             />
             </label>
-            <input type="subit"
+            <input type="submit" value="Create your team"/>
         </form>
     )
 }
+
+export default Form
